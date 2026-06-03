@@ -15,3 +15,9 @@ services:
     depends_on:
       api:
         condition: service_healthy
+  
+  ai:
+    build: ./ai_structuriser
+    depends_on:
+      api:
+        condition: service_healthy
