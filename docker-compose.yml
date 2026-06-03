@@ -1,5 +1,10 @@
 services:
   api:
-    build: ./endpoints
+    build: ./api
     ports:
       - "8000:80"
+  
+  client:
+    build: ./client
+    depends_on:
+      - api
