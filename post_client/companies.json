@@ -1,0 +1,42 @@
+[
+    {
+        "company": "NovaByte Systems",
+        "text": "Podjetje NovaByte Systems se pogosto omenja v lokalnih tehnoloških krogih, čeprav večina ljudi sploh ne ve točno, kaj vse počnejo, ker imajo precej širok opis dejavnosti. Med drugim razvijajo poslovne aplikacije, nekaj internih orodij za logistiko in občasno tudi rešitve za manjše trgovine. Direktor oziroma CEO podjetja je Marko Vidmar, podjetje pa je bilo ustanovljeno leta 2014. V njihovih predstavitvah se pojavlja veliko govora o digitalni prihodnosti, avtomatizaciji in pametni organizaciji dela, čeprav je bistveni podatek ta, da gre za informacijsko podjetje, ki ga vodi Marko Vidmar in obstaja od leta 2014."
+    },
+    {
+        "company": "GreenStone Energy",
+        "text": "GreenStone Energy je podjetje, ki se ukvarja z energetskimi rešitvami, vsaj tako piše v njihovih promocijskih materialih, kjer radi uporabljajo izraze, kot so trajnost, zeleni prehod, energetska učinkovitost in pametno upravljanje porabe. Podjetje je bilo ustanovljeno leta 2009, njegov CEO pa je Ana Kralj. Čeprav imajo v opisih veliko govora o prihodnosti in odgovornosti do okolja, je osnovna informacija precej jasna: GreenStone Energy je energetsko podjetje, vodi ga Ana Kralj, nastalo pa je leta 2009."
+    },
+    {
+        "company": "BlueHarbor Logistics",
+        "text": "BlueHarbor Logistics je logistično podjetje, ki se v svojih opisih predstavlja kot zanesljiv partner za transport, skladiščenje, distribucijo in optimizacijo dobavnih poti. Njihovi teksti so običajno precej dolgi in polni besed, kot so učinkovitost, sledljivost, natančnost in mednarodna povezljivost. CEO podjetja je Luka Petek, podjetje pa je bilo ustanovljeno leta 2011. Če odstranimo ves marketinški balast, ostane preprost podatek: BlueHarbor Logistics vodi Luka Petek in podjetje deluje od leta 2011."
+    },
+    {
+        "company": "GoldenField Foods",
+        "text": "Med podjetji, ki se ukvarjajo s prehranskimi izdelki, se pogosto pojavlja tudi GoldenField Foods, ki proizvaja različne pakirane izdelke, pripravljene mešanice in prehranske dodatke za gostinske obrate. V njihovih opisih je precej poudarka na kakovosti, domačem poreklu, skrbni izbiri sestavin in zadovoljstvu strank, kar se sliši lepo, ampak za testne podatke je pomembno predvsem to, da je CEO podjetja Sara Zupan in da je bilo podjetje ustanovljeno leta 2017."
+    },
+    {
+        "company": "IronPeak Manufacturing",
+        "text": "IronPeak Manufacturing je podjetje iz proizvodnega sektorja, ki se ukvarja z izdelavo kovinskih komponent, industrijskih nosilcev in različnih mehanskih sklopov za večje naročnike. Njihov opis pogosto omenja trdnost, natančnost, dolgotrajnost, izkušeno ekipo in sodoben strojni park, čeprav so ti stavki bolj ali manj tipični za skoraj vsako proizvodno podjetje. Glavni direktor oziroma CEO je David Horvat, podjetje pa je bilo ustanovljeno leta 2003."
+    },
+    {
+        "company": "CloudNest Solutions",
+        "text": "CloudNest Solutions je manjše, a hitro rastoče podjetje, ki ponuja oblačne storitve, podporo pri migracijah podatkov in svetovanje pri uporabi modernih digitalnih platform. V njihovem tekstu je precej govora o fleksibilnosti, varnosti podatkov, razširljivosti sistemov in dolgoročnem partnerstvu s strankami. Podjetje je bilo ustanovljeno leta 2018, CEO pa je Nina Rozman. Če bi moral vse skupaj zelo na kratko povzeti, bi rekel, da je CloudNest Solutions IT podjetje, ki ga vodi Nina Rozman in obstaja od leta 2018."
+    },
+    {
+        "company": "SilverLine Design Studio",
+        "text": "SilverLine Design Studio je kreativno podjetje, ki se ukvarja z grafičnim oblikovanjem, vizualno identiteto, spletnimi stranmi in pripravo promocijskih materialov za različne naročnike. Njihovi opisi so precej mehki in polni izrazov, kot so estetika, zgodba blagovne znamke, kreativni proces, prepoznavnost in uporabniška izkušnja. CEO podjetja je Tomaž Erjavec, podjetje pa je bilo ustanovljeno leta 2016. V ozadju vseh teh lepih marketinških stavkov je osnovni podatek, da SilverLine Design Studio vodi Tomaž Erjavec in da podjetje deluje od leta 2016."
+    },
+    {
+        "company": "AquaPure Technologies",
+        "text": "AquaPure Technologies je podjetje, ki razvija in prodaja sisteme za filtracijo vode, merjenje kakovosti vode in osnovne industrijske rešitve za čiščenje tekočin. Njihova predstavitev pogosto vključuje poudarke o zdravju, varnosti, zanesljivosti, ekološki odgovornosti in tehnološki natančnosti. Podjetje je bilo ustanovljeno leta 2010, njegov CEO pa je Maja Logar. Čeprav tekst vsebuje veliko dodatnih opisov, je bistvo preprosto: AquaPure Technologies vodi Maja Logar, ustanovljeno pa je bilo leta 2010."
+    },
+    {
+        "company": "RedFox Media Group",
+        "text": "RedFox Media Group je podjetje, ki se ukvarja z digitalnim marketingom, oglaševanjem na družbenih omrežjih, produkcijo krajših video vsebin in svetovanjem pri spletni prepoznavnosti. V njihovih predstavitvah se pogosto najdejo izrazi, kot so doseg, angažiranost, vsebinska strategija, optimizacija kampanj in rast blagovne znamke. CEO podjetja je Gregor Mlakar, podjetje pa je bilo ustanovljeno leta 2019. Vse ostalo v opisu je bolj kontekst, glavni podatki pa so ime podjetja, CEO Gregor Mlakar in leto nastanka 2019."
+    },
+    {
+        "company": "NorthGate Analytics",
+        "text": "NorthGate Analytics je podatkovno usmerjeno podjetje, ki pomaga drugim organizacijam razumeti njihove poslovne podatke, pripravljati poročila in graditi osnovne analitične nadzorne plošče. Njihovi materiali radi poudarjajo podatkovno inteligenco, preglednost poslovanja, boljše odločanje in avtomatizacijo poročanja, kar se sliši precej moderno. Podjetje je bilo ustanovljeno leta 2015, CEO pa je Katja Novak. Če odstranimo odvečne opise, ostane jasno, da je NorthGate Analytics analitično podjetje, ki ga vodi Katja Novak in obstaja od leta 2015."
+    }
+]
