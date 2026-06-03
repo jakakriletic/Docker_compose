@@ -9,7 +9,9 @@ services:
       timeout: 3s
       retries: 10
       start_period: 5s
+
   client:
     build: ./post_client
     depends_on:
-      - api
+      api:
+        condition: service_healthy

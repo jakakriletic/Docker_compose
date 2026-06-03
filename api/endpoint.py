@@ -6,9 +6,8 @@ app = FastAPI()
 companies = []
 
 class Item(BaseModel):
-    Company: str
-    Ceo: str = None
-    Creation_date: str = "00/00/2000"
+    company: str
+    text: str
 
 @app.post("/company/postdata")
 def company_postdata(data: Item):
