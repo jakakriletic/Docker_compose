@@ -7,7 +7,7 @@ services:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:80/docs')"]
       interval: 5s
       timeout: 3s
-      retries: 10
+      retries: 3
       start_period: 5s
 
   client:
