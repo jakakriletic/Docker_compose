@@ -6,9 +6,7 @@ import httpx
 import json
 
 load_dotenv()
-#r = httpx.get('http://api:80/company/getdata')
-with open("companies.json","r" , encoding="utf-8") as file:
-    r = json.load(file)
+r = httpx.get('http://api:80/company/getdata')
 
 
 class strukturised(BaseModel):
@@ -52,7 +50,7 @@ agent = create_agent(
         """,
     response_format=strukturised,
 )
-
+#structured_company = []
 for company in r:
     user_prompt = f"""
         Extract structured company information from the following JSON-like input.
@@ -72,8 +70,12 @@ for company in r:
         ]
     })
     strukturirano = result["structured_response"]
-    print(strukturirano.company_name)
-    print(strukturirano.ceo)
-    print(strukturirano.founded_year)
-    print(strukturirano.industry)
-    print(strukturirano.main_activity)
+    
+
+    #structured_company.append(strukturirano.model_dump())
+
+    print(strukturirano)
+
+#print(structured_company)
+#with open("./output/strukturiran_data.json", "w", encoding="utf-8") as file:
+#    json.dump(structured_company, file, ensure_ascii=False, indent=4)
