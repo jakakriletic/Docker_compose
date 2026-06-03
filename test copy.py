@@ -1,0 +1,12 @@
+import json 
+data = [
+    {'name': 'Nikhil', 'branch': 'COE', 'year': 2, 'cgpa': 9.0},
+    {'name': 'Sanchit', 'branch': 'COE', 'year': 2, 'cgpa': 9.1},
+    {'name': 'Aditya', 'branch': 'IT', 'year': 2, 'cgpa': 9.3},
+    {'name': 'Sagar', 'branch': 'SE', 'year': 1, 'cgpa': 9.5},
+    {'name': 'Prateek', 'branch': 'MCE', 'year': 3, 'cgpa': 7.8},
+    {'name': 'Sahil', 'branch': 'EP', 'year': 2, 'cgpa': 9.1}
+]
+json_str = json.dumps(data, indent= 4)
+with open('testitest.json', 'w') as file:
+    file.write(json_str)
