@@ -3,7 +3,12 @@ services:
     build: ./api
     ports:
       - "8000:80"
-  
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:80/docs')"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
   client:
     build: ./post_client
     depends_on:
