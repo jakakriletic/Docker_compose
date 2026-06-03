@@ -8,6 +8,7 @@ import json
 load_dotenv()
 r = httpx.get('http://api:80/company/getdata')
 
+companies = r.json()
 
 class strukturised(BaseModel):
     company_name: str = Field(description="Ime podjetja, omenjeno v besedilu.")
@@ -51,7 +52,7 @@ agent = create_agent(
     response_format=strukturised,
 )
 #structured_company = []
-for company in r:
+for company in companies:
     user_prompt = f"""
         Extract structured company information from the following JSON-like input.
 
