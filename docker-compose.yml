@@ -31,7 +31,7 @@ services:
         condition: service_healthy
 
   client:
-    build: ./frontend
+    build: ./post_client
     depends_on:
       api:
         condition: service_healthy
