@@ -32,6 +32,8 @@ services:
 
   client:
     build: ./post_client
+    profiles:
+      - manual
     depends_on:
       api:
         condition: service_healthy
@@ -41,8 +43,6 @@ services:
     depends_on:
       api:
         condition: service_healthy
-      client:
-        condition: service_completed_successfully
   
   
 volumes:
