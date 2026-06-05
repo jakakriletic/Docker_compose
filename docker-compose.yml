@@ -1,4 +1,21 @@
 services:
+  database:
+    image: mysql:8.3.0
+    container_name: mysql-company
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: companiesdb
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -h 127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} companiesdb -e 'SELECT 1;' || exit 1"]
+      interval: 10s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
   api:
     build: ./api
     ports:
@@ -9,9 +26,12 @@ services:
       timeout: 3s
       retries: 3
       start_period: 5s
+    depends_on:
+      database:
+        condition: service_healthy
 
   client:
-    build: ./post_client
+    build: ./frontend
     depends_on:
       api:
         condition: service_healthy
@@ -24,16 +44,6 @@ services:
       client:
         condition: service_completed_successfully
   
-  database:
-    image: mysql:8.3.0
-    container_name: mysql-test
-    environment:
-      MYSQL_ROOT_PASSWORD: 123
-      MYSQL_DATABASE: example_db
-    ports:
-      - "3306:3306"
-    volumes:
-      - db_data:/var/lib/mysql
-      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+  
 volumes:
   db_data:

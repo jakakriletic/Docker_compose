@@ -1,5 +1,4 @@
-CREATE DATABASE test_baza;
-USE test_baza;
+USE companiesdb;
 CREATE TABLE company (
     company_name varchar(255) PRIMARY KEY,
     ceo varchar(255),
